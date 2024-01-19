@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 const Header = () => {
   return (
     <nav className="bg-gray-900 p-4">
@@ -10,18 +12,30 @@ const Header = () => {
           />
         </div>
         <div className="space-x-10">
-          <a href="#" className="text-white">
+          <NavLink to="/" className="text-white" activeClassName="active-link">
             Home
-          </a>
-          <a href="#" className="text-white">
-            About
-          </a>
-          <a href="#" className="text-white">
-            Contact
-          </a>
-          <a href="#" className="text-white">
+          </NavLink>
+          <NavLink
+            to="/about"
+            className="text-white"
+            activeClassName="active-link"
+          >
+            About Us
+          </NavLink>
+          <NavLink
+            to="/contact"
+            className="text-white"
+            activeClassName="active-link"
+          >
+            Contact Us
+          </NavLink>
+          <NavLink
+            to="/cart"
+            className="text-white"
+            activeClassName="active-link"
+          >
             Cart
-          </a>
+          </NavLink>
         </div>
       </div>
     </nav>
