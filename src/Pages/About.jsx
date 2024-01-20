@@ -4,7 +4,8 @@ import Numbers from "../Components/Numbers/Numbers";
 const AboutPage = () => {
   const StudentsDetails = {
     name: "Manikanta",
-    age: "31",
+    age: 31,
+    place: "Vijayawada",
   };
   return (
     <div className="container mx-auto p-8">
@@ -22,7 +23,7 @@ const AboutPage = () => {
         restaurant. Thank you for choosing us, and we look forward to serving
         you.
       </p>
-      <Numbers data={StudentsDetails} />
+      <Numbers student={StudentsDetails} />
     </div>
   );
 };
