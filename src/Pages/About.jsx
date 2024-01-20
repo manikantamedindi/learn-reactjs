@@ -1,7 +1,11 @@
 // AboutPage.jsx
 import React from "react";
-
+import Numbers from "../Components/Numbers/Numbers";
 const AboutPage = () => {
+  const StudentsDetails = {
+    name: "Manikanta",
+    age: "31",
+  };
   return (
     <div className="container mx-auto p-8">
       <h1 className="text-4xl font-bold mb-6">About Us</h1>
@@ -18,6 +22,7 @@ const AboutPage = () => {
         restaurant. Thank you for choosing us, and we look forward to serving
         you.
       </p>
+      <Numbers data={StudentsDetails} />
     </div>
   );
 };
