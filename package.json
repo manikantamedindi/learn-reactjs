@@ -1,0 +1,23 @@
+{
+  "name": "react-learning",
+  "version": "1.0.0",
+  "description": "This is React Learning",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html -p 3000 --open"
+  },
+  "keywords": [],
+  "author": "Manikanta",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browsersList": [
+    "last 2 versions"
+  ]
+}
