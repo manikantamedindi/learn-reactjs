@@ -43,3 +43,5 @@
    -> Differential Bundling - support older browsers
    -> Diagnostics
    -> Error Handling
+   -> Tree shaking - remove unused code
+   ->
